@@ -5,6 +5,7 @@ a {
   text-decoration: none;
   color: white;
 }
+
 .btn {
     display: inline-block;
     min-width: 160px;
@@ -18,11 +19,18 @@ a {
     font-size: 16px;
     font-weight: 400;
 }
-
+.col {
+  text-align: center;
+}
 .section-title {
   font-size: 30px;
   font-weight: 700;
-
+  text-align: center;
+}
+.section-subtitle {
+  font-size: 20px;
+  font-style: italic;
+  text-align: center;
 }
 .page-title {
   font-size: 72px;
@@ -63,6 +71,10 @@ a {
 
 }
 /* Services */
+.far, .fas {
+  color: #fbc531;
+}
+
 .services {
   background: #f5f6fa;
 }
