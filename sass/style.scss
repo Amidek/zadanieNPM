@@ -7,7 +7,9 @@ a {
   text-decoration: none;
   color: white;
 }
-
+body {
+  margin: 0;
+}
 .btn {
     display: inline-block;
     min-width: 160px;
@@ -52,13 +54,20 @@ a {
   color: #fbc531;
   font-style: italic;
   font-weight: 500;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
 .btn-splash {
   background-color: #fbc531;
-
-}
+  margin-bottom: 40px;
 }
 .splash {
-  height: 50vh;
+  height: 100%;
+  display: flex;
+}
+.navbar {
+  display: contents;
 }
 .nav {
   display: inline-flex;
@@ -120,11 +129,15 @@ a {
 
 }
 /* Footer */
-footer .row .col-4 {
+footer .row{
   justify-content: center;
 }
 footer {
   background: #7f8fa6;
+  height: 45px;
+  display: flex;
+  font-size: 25px;
+  align-items: center;
 }
 
 /* Media queries */
@@ -143,5 +156,10 @@ footer {
 @media (max-width: 768px) {
   .page-title {
     font-size: 32px;
+  }
+}
+@media (max-width: 557px) {
+  .services .row{
+    display: block;
   }
 }
